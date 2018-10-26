@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>TicTacToe</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    
+</head>
+<body>
+    <div id="header">
+    <h1>TicTacToe</h1>
+    </div>
+    <div class="position-center">
+            <h3 id="player-turn-text"> X, it's your turn! </h3>
+            <div class="tic-tac-toe-div">
+            <table class="container" id="board">
+                <tr class = "row">
+                    <td class="tRow rCol"><button id="00" class="box"></button></td>
+                    <td class="tRow mCol"><button id="01" class="box"></button></td>
+                    <td class="tRow lCol"><button id="02" class="box"></button></td>
+                </tr>
+                <tr class = "row">
+                    <td class="mRow rCol"><button id="10" class="box"></button></td>
+                    <td class="mRow mCol"><button id="11" class="box"></button></td>
+                    <td class="mRod lCol"><button id="12" class="box"></button></td>
+                </tr>
+                <tr class = "row">
+                    <td class="bRow rCol"><button id="20" class="box"></button></td>
+                    <td class="bRow mCol"><button id="21" class="box"></button></td>
+                    <td class="bRow lCol"><button id="22" class="box"></button></td>
+                </tr>
+            </table>
+            </div>
+    </div>
+    <div id="scoreboard-div">
+        <div id="scoreboard">
+                <h4 id="player-x-score" class="score-vertical-pos">X has 0 points</h4>
+                <h4 id="player-o-score" class="score-vertical-pos">O has 0 points</h4>
+                <button id="reset-button" class="position-center" type="button">Play again</button>
+        </div>
+    </div>
+
+    <script src="tictactoe.js"></script>
+</body>
+</html>

@@ -1,0 +1,93 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    text-align: center;
+    margin: auto;
+}
+
+/* Game name */
+h1 {
+    color: black;
+    margin: auto;
+    background-color: #BAABFF;
+    padding: 20px;
+    border-bottom: 3px solid black;
+}
+
+/* TicTacToe board */
+table {
+    border-collapse: collapse;
+    margin: auto;
+    text-align: center;
+    overflow: hidden;
+}
+
+td {
+    min-width: 100px;
+    width: 100px;
+    height: 100px;
+    padding: 3px; 
+}
+
+/* Table buttons */
+.box {
+    cursor: pointer; 
+    height: 100%; 
+    width: 100%; 
+    border: none; 
+    background-color: #e3c0ff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.box:focus, .box:visited {
+    outline: none; 
+}
+
+/* Reset button */ 
+#reset-button {
+    font-weight: bold;
+    color: black;
+    height: 80%; 
+    width: 20%; 
+    padding: 3px;
+    background-color: #ABCFFF; 
+    border: none; 
+}
+
+/* Table position */
+.position-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Scoreboard */
+#scoreboard-div{
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    bottom: 0px;
+    border-top: 3px solid;
+}
+
+.score-vertical-pos {
+    margin-top: 14px;
+}
+
+#scoreboard {
+max-width: 40%;
+min-width: 370px;;
+margin:auto;
+height: 100px;
+}
+
+#player-x-score { float: left}
+#player-o-score { float: right}
+
+/*
+purple 6 #D3AFFF 
+light 1 */
